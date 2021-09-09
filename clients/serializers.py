@@ -27,6 +27,7 @@ class ClientSerializer(serializers.HyperlinkedModelSerializer):
         fields = (
             'url',
             'code_demande',
+            'type_client',
             'nom',
             'prenom',
             'no_civique',
